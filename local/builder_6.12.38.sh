@@ -96,9 +96,9 @@ mkdir kernel_workspace
 cd kernel_workspace
 
 echo "正在克隆源码仓库..."
-aria2c -s16 -x16 -k1M https://github.com/cctv18/android_kernel_common_oneplus_sm8845/archive/refs/heads/oneplus/sm8845_b_16.0.0_ace_6t.zip -o common.zip && 
+aria2c -s16 -x16 -k1M https://github.com/Alanhays/android_kernel_common_oneplus_sm8845-1/archive/refs/heads/oneplus/sm8845_b_16.0.0_ace_6t.zip -o common.zip && 
 unzip -q common.zip && 
-mv "android_kernel_common_oneplus_sm8845-oneplus-sm8845_b_16.0.0_ace_6t" common &&
+mv "android_kernel_common_oneplus_sm8845-1-oneplus-sm8845_b_16.0.0_ace_6t" common &&
 rm -rf common.zip &
 
 echo "正在克隆llvm-clang19工具链..." &&
